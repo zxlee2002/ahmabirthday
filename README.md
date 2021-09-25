@@ -1,12 +1,3 @@
-//修改此处的123,123即可修改登录的用户名和密码
-if(userName=="123" &&  pwd=="123"){
-  event.preventDefault();
-  $('form').fadeOut(500);
-  $('.wrapper').addClass('form-success');
-  setTimeout(function(){location.href="BirthdayCake.html";},2000);
-}
-<!--第三屏-->
-
 <div class="section">
     <!-- 下面两个div分别实现的左边那条轴和那个小球 -->
     <div class="timeline"></div>
